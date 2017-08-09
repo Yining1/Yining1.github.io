@@ -2,66 +2,89 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Yining Chen Website</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  .bg-dark-gray {
-      background-color: #696969 /* Dark Gray */
-      color: #ffffff;
-  }
-  .bg-green { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-dark-blue { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-white { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
+  <head>
 
-.navbar-nav li a:hover {
-    color: #1abc9c !important;
-}
-  </style>
-</head>
+    <title>Yining Chen Website</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+   
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <style>
+      .bg-dark-gray {
+          background-color: #696969 /* Dark Gray */
+          color: #ffffff;
+      }
+
+      .bg-green { 
+          background-color: #1abc9c; /* Green */
+          color: #ffffff;
+      }
+
+      .bg-dark-blue { 
+          background-color: #474e5d; /* Dark Blue */
+          color: #ffffff;
+      }
+
+      .bg-white { 
+          background-color: #ffffff; /* White */
+          color: #555555;
+      }
+
+      .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+      }
+
+      .navbar-nav li a:hover {
+          color: #1abc9c !important;
+      }
+    </style>
+  </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Me</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#me">WHO</a></li>
-        <li><a href="#search bar">WHAT</a></li>
-        <li><a href="#birds">WHERE</a></li>
-      </ul>
-    </div>
+<nav class="navbar navbar-toggleable-md navbar-fixed-top navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!--   <a class="navbar-brand" href="#">Navbar</a> -->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <h4 class="nav-link" href="#">Home <span class="sr-only">(current)</span></h4>
+      </li>
+      <li class="nav-item">
+        <h4 class="nav-link" href="#me">About</h4>
+      </li>
+      <li class="nav-item">
+        <h4 class="nav-link" href="#">Blog</h4>
+      </li>
+      <li class="nav-item">
+        <h4 class="nav-link" href="#contact">Contact</h4>
+        
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
   </div>
 </nav>
+
 
 <div class="container-fluid bg-dark-blue text-center" id="Name">
   <h2>Hello! I'm Yining.</h2>
@@ -74,14 +97,11 @@
   </style>
 </div>
 
-<<<<<<< HEAD:index.html
 <div class="container-fluid bg-green text-center" id="me">
   <h3>hi</h3>
-  <img src="images/me.jpg" class="img-responsive img-circle" style="display:inline" alt="My Face" width="200" height="200">
+  <img src="images/me.jpg" class="img-responsive rounded-circle" style="display:inline" alt="My Face" width="200" height="200">
   <h3>hi</h3>
-=======
 
->>>>>>> 9ad00c29dfce43ee52d25a8362883b890ac61c97:index.html
   <style>
     .container-fluid {
       padding-top: 70px;
