@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 <?php
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
@@ -5,11 +8,11 @@
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
 		$from = 'Demo Contact Form'; 
-		$to = 'example@bootstrapbay.com'; 
+		$to = 'yining@yiningchen.me'; 
 		$subject = 'Message from Contact Demo ';
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
- 
+
 		// Check if name has been entered
 		if (!$_POST['name']) {
 			$errName = 'Please enter your name';
@@ -28,7 +31,7 @@
 		if ($human !== 5) {
 			$errHuman = 'Your anti-spam is incorrect';
 		}
- 
+
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	if (mail ($to, $subject, $body, $from)) {
@@ -38,4 +41,5 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	}
 }
 	}
-?>
+</body>
+</html>
