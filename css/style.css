@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  height: auto;
+}
+
+header nav {
+  text-align: right;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2em 1em .5em;
+  -webkit-transition: all .3s ease-in;
+}
+.small {
+  padding: .5em 1em;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background: rgba(255,255,255,0.3);
+}
+
+.portion {
+  
+  background-image:  url("../images/sky.png");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.portion.two {
+  background-image: url("../images/sky_refresh.png");
+}
+.portion h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 8em;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+  margin: 0;
+  text-shadow: 0 0 10px black;
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+}
+
+.portion h4 {
+  color: white;
+  font-weight: normal;
+  font-size: 2em;
+  padding-bottom: 2.8em;
+  margin: 0;
+  text-shadow: 0 0 10px black;
+  background: rgba(0,0,0,0.6);
+}
+
+.info {
+  background: #FFFAF0;
+  color: #777;
+  padding: 3em 20%;
+
+}
+
+.button {
+  text-align: center;
+}
+.button a {
+  display: inline-block;
+  border: 2px solid #777;
+  padding: .75em 1.5em;
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: .15em;
+  word-spacing: .25em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.button a:hover {
+  color: #FFFAF0;
+  background: #777;
+}
+footer.info {
+  color: #FFFAF0;
+  background: #777;
+  padding: 0 auto;
+  text-align: center;
+}
+
+#toTop img {
+  width: 50px;
+}
+#toTop img:hover {
+  cursor: pointer;
+}
+nav img {
+  z-index: 1000;
+  height: 2.5em;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  transition: all 0.5s linear;
+}
+
+.move {
+  top: -60px;
+}
+
+nav span {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
+
+.movetext {
+  top: -30px;
+}
+
+.bg-sky { 
+    /* The image used */
+    background-image: url("../images/sky.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-dark-gray {
+    background-color: #696969 /* Dark Gray */
+    color: #ffffff;
+}
+
+.bg-green { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.bg-dark-blue { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-white { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}

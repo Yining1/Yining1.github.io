@@ -7,68 +7,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic,600italic'>
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  .bg-dark-gray {
-      background-color: #696969 /* Dark Gray */
-      color: #ffffff;
-  }
-  .bg-green { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-dark-blue { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-white { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
+  <script src="js/index.js"></script>
 
-.navbar-nav li a:hover {
-    color: #1abc9c !important;
-}
-  </style>
 </head>
+
 <link rel="shortcut icon" type="image/x-icon" href="images/mylogo.png" />
+
 <body>
 
-<nav class="navbar navbar-default navbar-inverse">
-  <div class="container">
-    <div class="navbar-header">
+<body>
+  <header>
+  <nav>
+    <span class="movetext">Yining Chen</span>
+    <!-- <img class="pull-left" src="images/mylogo.png"> -->
+    <a href="#me">About</a>
+    <a href="#birds">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-    </div>
 
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right h4">
-        <li><a href="#me">About</a></li>
-        <li><a href="blog/blogHome.html">Blog</a></li>
-        <li><a href="#birds">WHERE</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<div class="container-fluid bg-dark-blue text-center" id="Name">
+
+<div class="portion text-center" id="Name">
   <h2>Yining Chen</h2>
   <h4>Software Engineer | Bioengineer<h4>
+</div>
+
+<div class="container-fluid info" id="me">
+  <div class="row">
+      <div class="col-md-6 pull-left">
+        <img src="images/me.jpg" class="img-responsive img-circle" style="display:inline" alt="My Face" width="300" height="300"></div>
+      <div class="col-md-6 text-center"><span class="pull-right">$42</span></div>
+  </div>
+
   <style>
     .container-fluid {
       padding-top: 70px;
@@ -77,17 +53,10 @@
   </style>
 </div>
 
-<div class="container-fluid bg-green text-center" id="me">
-  <h3>hi</h3>
-  <img src="images/me.jpg" class="img-responsive img-circle" style="display:inline" alt="My Face" width="200" height="200">
-  <h3>hi</h3>
-  <style>
-    .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-    }
-  </style>
+<div class="portion">
+  <h2>Portion 3.</h2>
 </div>
+
 
 <div class="container-fluid bg-dark-blue text-center" id="search bar">
   <h3>What Am I?</h3>
@@ -151,3 +120,5 @@
 
 </body>
 </html>
+
+
