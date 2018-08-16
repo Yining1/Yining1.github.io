@@ -1,0 +1,37 @@
+---
+layout: default
+title: Art Gallery
+---
+
+<div class="blurb">
+	<h1>Art Gallery</h1>
+	<p>I enjoy making art in my spare time! Here are some works that I'm proud of. </p>
+</div><!-- /.blurb -->
+
+<center>
+    <div class="photoset-grid-custom">
+        <img src="/images/gallery/sky.png" style='height: 100%; width: 100%; object-fit: contain'/>
+    </div>
+</center>
+
+<script src="/assets/js/jquery.photoset-grid.js"></script>
+
+<script type="text/javascript">
+    $('.photoset-grid-custom').photosetGrid({
+    // Set the gutter between columns and rows
+    gutter: '5px',
+  
+    // Wrap the images in links
+    highresLinks: true,
+  
+    // Asign a common rel attribute
+    rel: 'print-gallery',
+
+    onInit: function(){},
+    
+    onComplete: function(){
+        // Show the grid after it renders
+        $('.photoset-grid-custom').attr('style', '');
+    }
+});
+</script>
